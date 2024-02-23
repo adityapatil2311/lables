@@ -13,5 +13,6 @@ public interface LablesMapper {
 	Lables mapLablesDtoToLables(LablesDto lablesdto);
 
 	LablesDto mapLablesToLablesDto(Lables lables);
+
 	List<LablesDto> mapLablesListToLablesDtoList(List<Lables> lables);
 }

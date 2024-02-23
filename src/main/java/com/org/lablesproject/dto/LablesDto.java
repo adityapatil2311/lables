@@ -3,6 +3,7 @@ package com.org.lablesproject.dto;
 import java.time.LocalDateTime;
 
 import lombok.Data;
+
 @Data
 public class LablesDto {
 
@@ -12,5 +13,5 @@ public class LablesDto {
 	private int created_by;
 	private LocalDateTime created_date;
 	private int modified_by;
-    private LocalDateTime modified_date;
+	private LocalDateTime modified_date;
 }
