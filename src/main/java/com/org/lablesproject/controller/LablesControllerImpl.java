@@ -27,7 +27,7 @@ public class LablesControllerImpl implements LableController {
 		return servicesImpl.saveAllData(dto);
 
 	}
-
+// all details
 	@GetMapping("/getall")
 	@Override
 	public LablesApiResponse getAllData() {
